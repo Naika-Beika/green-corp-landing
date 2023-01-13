@@ -8,6 +8,7 @@ header {
     background-color: #fff;
     z-index: 1;
 }
+
 body {
  font-family: 'Raleway', sans-serif;
  color: #213053;
@@ -291,7 +292,8 @@ body {
     box-shadow: 0 16px 36px rgba(246 152 12/ 20%);
     transition: background-color 0.3s ease-in;
   }
-footer{
+
+  footer{
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 20px;
@@ -323,12 +325,14 @@ footer{
   .footer__links a{
     margin-bottom: 15px;
   }
-@keyframes rotation {
+
+  @keyframes rotation {
   0% {transform: rotate(0);
 }
 100% {transform: rotate(360deg);
 }
 }
+
 @media (max-width: 1024px){
   .about {
     padding: 115px 20px;
@@ -348,6 +352,7 @@ footer{
   grid-template-columns: auto;
 }
 }
+
 @media (max-width: 720px){
   .header__logo{
     height: 20px;

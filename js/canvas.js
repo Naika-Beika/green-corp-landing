@@ -71,5 +71,6 @@ class CanvasBackground{
         requestAnimationFrame(this.animate.bind(this));
     }
 }
+
 const canvas = new CanvasBackground("orb-canvas");
 canvas.start();
